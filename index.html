@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Video.js Video Jstest</title>
+    <title>HLS test with Video.js</title>
 
     <link href="node_modules/video.js/dist/video-js/video-js.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
@@ -32,6 +32,7 @@
     <script src="js/config.js"></script>
 </head>
 <body>
+
 <div class="info">
     <p>HLS test</p>
 </div>
@@ -69,6 +70,7 @@
         src="http://m2.cdn.bg:1935/live/mp4:bnt1.stream/playlist.m3u8?DVR"
         type="application/x-mpegURL">
 </video>
+
 <script>
     // initialize players
     videojs('video').VideoJSTest();
@@ -81,5 +83,6 @@
 //    var player2 = videojs('video2');
 //    var player2 = videojs('video3');
 </script>
+
 </body>
 </html>
